@@ -180,15 +180,15 @@ form {
 }
 
 .main-input {
-  flex: 1; /* Take remaining space */
-  resize: vertical; /* Allow vertical resizing */
+  flex: 1; 
+  resize: vertical; 
   min-height: 50px;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
-  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-y: auto; 
 }
 
 .main-input:focus {
@@ -227,7 +227,7 @@ button.action-btn:hover {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
-  flex-direction: column; /* Change to column layout */
+  flex-direction: column; 
 }
 
 .task-item:hover {
@@ -241,7 +241,7 @@ button.action-btn:hover {
 
 .task-content-box {
   flex: 1;
-  margin-bottom: 10px; /* Add margin to separate content and buttons */
+  margin-bottom: 10px; 
 }
 
 .task-content {
@@ -250,10 +250,10 @@ button.action-btn:hover {
 }
 
 .task-text {
-  word-wrap: break-word; /* Wrap long content */
-  overflow-y: auto; /* Add vertical scrollbar if content overflows */
-  resize: vertical; /* Allow vertical resizing */
-  min-height: 50px; /* Set a minimum height */
+  word-wrap: break-word; 
+  overflow-y: auto; 
+  resize: vertical; 
+  min-height: 50px; 
 }
 
 .task-buttons-box {
@@ -263,7 +263,7 @@ button.action-btn:hover {
 .task-buttons {
   display: flex;
   align-items: center;
-  justify-content: center; /* Center the buttons horizontally */
+  justify-content: center; 
 }
 
 /* Filter buttons */
