@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "name": "Task 1",
+      "createdAt": "2024-03-11T12:00:00.000Z",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "name": "Task 2",
+      "createdAt": "2024-03-11T13:00:00.000Z",
+      "completed": true
+    }
+  ]
+}
